@@ -1,0 +1,18 @@
+{
+  "jest.pathToJest": "yarn test",
+  "jest.restartJestOnSnapshotUpdate": true,
+  "jest.enableSnapshotUpdateMessages": true,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.options": {
+    "extensinons": [".ts", ".js", ".tsx", ".jsx"]
+  }
+}
