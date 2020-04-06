@@ -1,7 +1,17 @@
 # Koa TypeORM Server Example
 
+An example REST API build with Koa js, PostgreSQL and TypeORM
 
-## Getting Stated
+# Table of Contents
+1. [Getting Started](#getting-started)
+2. [Available Scripts](#available-scripts)
+3. [Available Endpoints](#available-endpoints)
+4. [File Structure](#file-structure)
+5. [Code Format](#code-format)
+6. [Testing](#testing)
+#
+
+## Getting Started
 
 ### Installation
 
@@ -15,7 +25,7 @@ The server expects some environment variables to be set. If you are [developing 
 
 ### Local development with docker
 
-If you have docker installed the project provides a dockerised postgres db instance against which you can run the server in dev mode. To build and start the instance in the rood folder run:
+If you have docker installed the project provides a dockerised postgres db instance against which you can run the server in dev mode. To build and start the instance in the root folder run:
 
 ```bash
 make up
@@ -145,9 +155,6 @@ This folder defines all the API endpoints with their corresponding methods.
 ## Code Format
 
 The project uses [eslint](https://eslint.org/) to keep the formatting consistent. It also follows the [JavaScript Standard Style](https://standardjs.com/) rules. Auto formatting is achieved with `Prettier.js` and enabled trough the `.vscode` configuration.
-
-## Default ENV variables
-The server expects certain environment variables to be set. Rename the `.env.template` file to `.env` to get the suggested env vars during development.
 
 ## Testing
 
