@@ -17,6 +17,7 @@
     "koa-bodyparser": "^4.3.0",
     "koa-router": "^8.0.8",
     "lodash": "^4.17.15",
+    "module-alias": "^2.2.2",
     "pg": "^7.18.2",
     "typeorm": "^0.2.24"
   },
@@ -60,5 +61,9 @@
     "hooks": {
       "pre-commit": "yarn precommit"
     }
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@src": "src"
   }
 }

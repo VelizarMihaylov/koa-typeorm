@@ -1,7 +1,8 @@
+import 'module-alias/register'
 import 'reflect-metadata'
 import { createConnection } from 'typeorm'
-import { User } from './db'
-import app from './app'
+import { User } from '@src/db'
+import app from '@src/app'
 
 const port = process.env.PORT || 9080
 

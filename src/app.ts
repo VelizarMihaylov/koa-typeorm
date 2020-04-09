@@ -1,7 +1,7 @@
 import Koa from 'koa'
 import bodyParser from 'koa-bodyparser'
 
-import { users } from './routes'
+import { users } from '@src/routes'
 
 const app = new Koa()
 

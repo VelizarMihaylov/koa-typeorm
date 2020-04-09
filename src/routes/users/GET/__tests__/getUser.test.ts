@@ -6,7 +6,7 @@ jest.mock('typeorm')
 /**
  * Mocking the User Entity
  */
-jest.mock('../../../../db', () => ({
+jest.mock('@src/db', () => ({
   User: 'User Class Mock'
 }))
 

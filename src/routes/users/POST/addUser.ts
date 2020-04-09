@@ -1,4 +1,4 @@
-import { User } from '../../../db'
+import { User } from '@src/db'
 import { Context } from 'koa'
 import { getConnection, getManager } from 'typeorm'
 
